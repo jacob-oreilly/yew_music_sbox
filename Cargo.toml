@@ -1,0 +1,15 @@
+[package]
+name = "yew_music_sbox"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gloo-net = "0.5.0"
+serde = "1.0.199"
+wasm-bindgen-futures = "0.4.42"
+web-audio-api = "0.44.0"
+# this is the development version of Yew
+yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
+yew-router = { git = "https://github.com/yewstack/yew.git" }
